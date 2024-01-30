@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated by ubinuri -->
+<resources>
+    <string name="app_name">Slide Puzzle Pro</string>    
+    
+    <!-- SlidePuzzleActivity -->    
+    <string name="menu_new">새로운 게임</string>
+    <string name="menu_scores">고득점</string>
+    <string name="menu_settings">설정</string>
+    <string name="new_high_score">새로운 고득점!</string>
+    <string name="dialog_close">닫기</string>
+
+    <!-- HighScoreListActivity -->
+    <string name="scores_title">고득점</string>
+    <string name="size_header">사이즈</string>
+    <string name="time_header">시간</string>
+    <string name="menu_clear">점수 초기화</string>
+    <string name="delete_dialog_title">초기화</string>
+    <string name="delete_dialog_msg">모든 점수를 잃을 수 있습니다.</string>
+    <string name="dialog_yes">확인</string>
+    <string name="dialog_no">취소</string>
+    
+    <!-- PuzzlePreferenceActivity -->
+    <string name="choose_image">이미지 선택</string>
+    
+    <string name="settings_title">설정</string>
+    <string name="appearance_settings_title">출현</string>
+    <string name="mechanics_settings_title">기계적</string>
+    <string name="menu_restore_defaults">복원 기본 설정</string>
+
+    <string name="pref_title_show_statusbar">상태 바 보기</string>
+    <string name="pref_summary_show_statusbar">상태 바 표시</string>
+
+    <string name="pref_title_show_timer">타이머 보기</string>
+    <string name="pref_summary_show_timer">경과된 게임 시간 표시</string>
+    
+    <string name="pref_title_show_numbers">숫자 보기</string>
+    <string name="pref_summary_show_numbers">타일 숫자 표시</string>
+    
+    <string name="pref_title_show_borders">경계 보기</string>
+    <string name="pref_summary_show_borders">타일 주위의 경계 표시</string>
+    
+    <string name="pref_title_blank">공란 위치</string>
+    <string name="pref_summary_blank">끝난 퍼즐의 공란 위치</string>
+    <string name="pref_blank_dialog_title">공란 위치 선택</string>
+    
+    <string name="pref_title_size">퍼즐 사이즈</string>
+    <string name="pref_summary_size">새로운 퍼즐을 어떻게 크게 만듭니까</string>
+    <string name="pref_size_dialog_title">사이즈 선택</string>
+
+    <string name="pref_title_number_size">숫자 사이즈</string>
+    <string name="pref_summary_number_size">숫자를 어떻게 크게 그립니까</string>
+    <string name="pref_number_size_dialog_title">사이즈 선택</string>
+    
+    <string name="pref_title_show_image">이미지 보기</string>
+    <string name="pref_summary_show_image">이미지로부터의 타일 생성</string> 
+    
+    <string name="pref_title_image_source">이미지 소스</string>
+    <string name="pref_summary_image_source">타일 생성 소스 선택</string>        
+    <string name="pref_image_source_dialog_title">이미지 선택</string>
+    
+    <string name="pref_title_border_color">경계 색상</string>
+    <string name="pref_summary_border_color">경계 색상 선택</string> 
+    
+    <string name="pref_title_number_color">숫자 색상</string>
+    <string name="pref_summary_number_color">숫자 색상 선택</string> 
+
+    <string name="pref_title_timer_color">타이머 색상</string>
+    <string name="pref_summary_timer_color">타이머 색상 선택</string> 
+
+    <string name="pref_title_bg_color">배경 색상</string>
+    <string name="pref_summary_bg_color">배경 색상 선택</string> 
+
+    <string name="pref_title_sound_on">사운드 재생</string>
+    <string name="pref_summary_sound_on">토글 사운드 효과</string>
+    
+    <!-- Arm for Ubinuri -->
+    <string name="classarm_license_check">ARM 라이선스 확인</string>
+    <string name="err_01">확인</string>
+    <string name="err_04">일시적인 장애로 라이선스 발급에 실패하였습니다.\n
+잠시후에 다시 시도해 주십시요.(04)</string>
+    <string name="err_08">일시적인 장애로 라이선스 발급에 실패하였습니다.\n
+잠시후에 다시 시도해 주십시요.(08)</string>
+    <string name="err_0e">일시적인 장애로 라이선스 발급에 실패하였습니다.\n
+잠시후에 다시 시도해 주십시요.(0E)</string>
+    <string name="err_09">상품 구매내역 확인에 실패하였습니다.\n
+자세한 사항은 고객센터로 문의 바랍니다.(09)</string>
+    <string name="err_0a">Tstore 미가입된 단말입니다.\n
+가입 후 이용을 해주시기 바랍니다.(0A)</string>
+    <string name="err_0c">일시적인 장애로 라이선스 발급에 실패하였습니다.\n
+잠시후에 다시 시도해 주십시요.(0C)</string>
+    <string name="err_0d">어플리케이션의 라이선스 정보 확인이 불가능합니다.\n
+자세한 사항은 고객센터로 문의 바랍니다.(0D)</string>
+    <string name="err_11">휴대폰 번호를 확인할 수 없습니다.\n
+USIM 장착여부 확인 및 USIM 잠금이 된 경우 해제를 해주시기 바랍니다. (11)</string>
+    <string name="err_12">어플리케이션의 정보 확인이 불가능합니다.\n
+자세한 사항은 고객센터로 문의 바랍니다.(12)</string>
+    <string name="err_13">휴대폰에서 데이타통신(3G, WIFI)이 되고 있지 않습니다.\n
+휴대폰의 데이터 통신 설정부분을 확인 후 재 실행을 해 주십시요. (13)</string>
+    <string name="err_14">Tstore 전용프로그램이 설치 되어 있지 않습니다.\n
+Tstore 전용프로그램을 설치하신 후 재 실행을 해 주십시요. (14)</string>
+	<string name="err_arm"> ARM 서비스를 찾을 수 없습니다.</string>    
+</resources>

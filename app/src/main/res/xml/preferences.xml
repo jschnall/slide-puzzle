@@ -1,0 +1,85 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/appearance_settings_title">
+    <CheckBoxPreference android:defaultValue="true"
+        android:key="pref_key_sound_on"
+        android:summary="@string/pref_summary_sound_on"
+        android:title="@string/pref_title_sound_on"/>
+    <!-- 
+    <CheckBoxPreference android:defaultValue="true"
+        android:key="pref_key_show_statusbar"
+        android:summary="@string/pref_summary_show_statusbar"
+        android:title="@string/pref_title_show_statusbar"/>
+    -->
+    <com.sporksoft.slidepuzzle.SelectColorPreference
+        android:defaultValue="@drawable/default_bg_color"
+        android:key="pref_key_bg_color"
+        android:title="@string/pref_title_bg_color"
+        android:summary="@string/pref_summary_bg_color"/>    
+    <CheckBoxPreference android:defaultValue="true"
+        android:key="pref_key_show_timer"
+        android:summary="@string/pref_summary_show_timer"
+        android:title="@string/pref_title_show_timer"/>
+    <com.sporksoft.slidepuzzle.SelectColorPreference
+        android:defaultValue="@drawable/default_fg_color"
+        android:layout="?android:attr/preferenceLayoutChild"
+        android:dependency="pref_key_show_timer"    
+        android:key="pref_key_timer_color"
+        android:title="@string/pref_title_timer_color"
+        android:summary="@string/pref_summary_timer_color"/>    
+    <CheckBoxPreference android:defaultValue="true"
+        android:key="pref_key_show_borders"
+        android:summary="@string/pref_summary_show_borders"
+        android:title="@string/pref_title_show_borders"/>
+    <com.sporksoft.slidepuzzle.SelectColorPreference
+        android:defaultValue="@drawable/default_fg_color"
+        android:layout="?android:attr/preferenceLayoutChild"
+        android:dependency="pref_key_show_borders"    
+        android:key="pref_key_border_color"
+        android:title="@string/pref_title_border_color"
+        android:summary="@string/pref_summary_border_color"/>    
+    <CheckBoxPreference android:defaultValue="true"
+        android:key="pref_key_show_numbers"
+        android:summary="@string/pref_summary_show_numbers"
+        android:title="@string/pref_title_show_numbers"/>
+    <com.sporksoft.slidepuzzle.SelectColorPreference
+        android:defaultValue="@drawable/default_fg_color"
+        android:layout="?android:attr/preferenceLayoutChild"
+        android:dependency="pref_key_show_numbers"    
+        android:key="pref_key_number_color"
+        android:title="@string/pref_title_number_color"
+        android:summary="@string/pref_summary_number_color"/>    
+    <ListPreference android:defaultValue="20"
+        android:key="pref_key_number_size"
+        android:title="@string/pref_title_number_size"
+        android:summary="@string/pref_summary_number_size"
+        android:entries="@array/pref_entries_number_size"
+        android:entryValues="@array/pref_entryvalues_number_size"
+        android:dialogTitle="@string/pref_number_size_dialog_title" />
+    <CheckBoxPreference android:defaultValue="true"
+        android:key="pref_key_show_image"
+        android:summary="@string/pref_summary_show_image"
+        android:title="@string/pref_title_show_image" />
+    <com.sporksoft.slidepuzzle.SelectImagePreference android:defaultValue="1"
+        android:layout="?android:attr/preferenceLayoutChild"
+        android:dependency="pref_key_show_image"    
+        android:key="pref_key_image_source"
+        android:title="@string/pref_title_image_source"
+        android:summary="@string/pref_summary_image_source"/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/mechanics_settings_title">
+    <ListPreference android:defaultValue="4"
+        android:key="pref_key_size"
+        android:title="@string/pref_title_size"
+        android:summary="@string/pref_summary_size"
+        android:entries="@array/pref_entries_size"
+        android:entryValues="@array/pref_entryvalues_size"
+        android:dialogTitle="@string/pref_size_dialog_title" />
+    <ListPreference android:defaultValue="1"
+        android:key="pref_key_blank"
+        android:title="@string/pref_title_blank"    
+        android:summary="@string/pref_summary_blank"
+        android:entries="@array/pref_entries_blank"
+        android:entryValues="@array/pref_entryvalues_blank"
+        android:dialogTitle="@string/pref_blank_dialog_title" />
+  </PreferenceCategory>
+</PreferenceScreen>

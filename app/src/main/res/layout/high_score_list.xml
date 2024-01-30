@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:selectable="false"
+        android:focusable="false"
+        android:stretchColumns="*">  
+    
+        <TableRow>
+    
+            <TextView
+                android:singleLine="true"
+                android:textColor="#888888"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/time_header"/>
+    
+            <TextView
+                android:singleLine="true"
+                android:textColor="#888888"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/size_header"/>
+        </TableRow>
+    </TableLayout>
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/score_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="#00000000"
+        android:scrollingCache="false"
+        android:divider="#0000"
+        android:padding="5dip"/>        
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_bg_color">
+    
+    <LinearLayout
+    	android:id="@+id/ad_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="52dip"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+	    android:layout_alignParentBottom="true"/>
+	    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/ad_layout">
+
+        <com.sporksoft.slidepuzzle.TileView  
+            android:id="@+id/tile_view"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:focusableInTouchMode="true"/>
+
+		<ImageView
+            android:id="@+id/complete_view"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:background="#00000000"/>		
+        
+        <Chronometer 
+            android:id="@+id/timer_view"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/clock_bg"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:saveEnabled="true"
+            android:padding="2dip"
+            android:gravity="center"/>
+    </FrameLayout>
+</RelativeLayout>
+

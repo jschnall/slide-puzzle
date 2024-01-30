@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!-- TileView -->
+    <drawable name="default_bg_color">#ff000000</drawable>
+    <drawable name="default_fg_color">#ffffffff</drawable>
+    <color name="default_bg">#ff000000</color>
+    <color name="default_fg">#ffffffff</color>
+    <color name="actionbar_title_color">#224894</color>
+    <color name="white">#ffffff</color>
+</resources>
